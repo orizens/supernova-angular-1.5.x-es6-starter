@@ -1,6 +1,6 @@
 # SuperNova Starter
 An opinionated boilerplate by [Angular ES6/ES2015 Style Guide](https://github.com/orizens/angular-es6-styleguide) by:
-<img src="https://cdn.rawgit.com/orizens/orizens-marketing/master/images/orizens-logo-circle.png" class="img-responsive" alt="">
+<img src="https://cdn.rawgit.com/orizens/orizens-marketing/master/images/orizens-logo-circle.png" style="width: 20%;display: block;" alt="orizens.com logo">
 
 ## What's Inside
 - Angular 1.5.x
@@ -81,7 +81,7 @@ There are 2 templates in **config/templates**:
 1. ngmodule
 2. ngservice
 
-to scaffold, run in terminal: 
+to scaffold, run in terminal:
 ```shell
 # to scaffold new ng component in src/components
 npm run dogen -- --ngmodule the-name-of-module
