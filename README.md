@@ -1,8 +1,7 @@
 # SuperNova Starter
-An opinionated boilerplate by [Angular ES6/ES2015 Style Guide](https://github.com/orizens/angular-es6-styleguide) by:
-<div style="width: 20%;display: block;">
-  <img src="https://cdn.rawgit.com/orizens/orizens-marketing/master/images/orizens-logo-circle.png" alt="orizens.com logo">
-</div>
+An opinionated boilerplate by [Angular ES6/ES2015 Style Guide](https://github.com/orizens/angular-es6-styleguide) by: 
+
+![](https://cdn.rawgit.com/orizens/orizens-marketing/master/images/orizens-logo-circle.png =200x)
 
 ## What's Inside
 - Angular 1.5.x
