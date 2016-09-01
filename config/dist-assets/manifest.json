@@ -1,0 +1,12 @@
+{
+  "name": "My App",
+  "short_name": "my app",
+  "description": "the app features...",
+  "icons": [{
+        "src": "assets/icon-128x128.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }],
+  "start_url": "/index.html?utm_source=web_app_manifest",
+  "display": "standalone"
+}
