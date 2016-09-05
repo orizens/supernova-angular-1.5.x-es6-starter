@@ -1,5 +1,5 @@
 import angular from 'angular';
-import =ngmodule=Component from './_ngmodule_.component';
+import { =ngmodule=Component } from './_ngmodule_.component';
 
 export default angular.module('_ngmodule_', [
 
