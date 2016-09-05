@@ -6,7 +6,7 @@ export default angular.module('_ngmodule_', [
 ])
 	.config(config)
 	.component(=ngmodule=Component.selector, =ngmodule=Component)
-;
+.name;
 /* @ngInject */
 function config () {
 
