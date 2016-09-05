@@ -1,7 +1,7 @@
 import template from './_ngmodule_.html';
 
 export let =ngmodule=Component = {
-	template,
+	templateUrl: template,
 	selector: '_ngmodule_',
 	bindings: {
 
