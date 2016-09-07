@@ -3,7 +3,8 @@
 <img width="20%" src="https://cdn.rawgit.com/orizens/orizens-marketing/master/images/orizens-logo-circle.png" alt="orizens.com logo">  
 An opinionated boilerplate by [Angular ES6/ES2015 Style Guide](https://github.com/orizens/angular-es6-styleguide) by [orizens](http://orizens.com): 
 
-## What's Inside
+![](./index-screenshot.png)  
+## What's Inside 
 - Angular 1.5.x
 - ui-router
 - Karma & Jasmine
