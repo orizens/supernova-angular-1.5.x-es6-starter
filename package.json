@@ -1,6 +1,6 @@
 {
   "name": "supernova-angular-1.5.x-es6-starter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "starter kit for angular > 1.5.x, > es6, karma and jasmine",
   "main": "src/index.html",
   "directories": {},
@@ -41,7 +41,7 @@
     "angular-route": "^1.5.8",
     "angular-sanitize": "^1.5.8",
     "angular-ui-bootstrap": "^1.1.2",
-    "angular-ui-router": "^0.2.15",
+    "angular-ui-router": "^1.0.0-beta.2",
     "babel-core": "^6.2.1",
     "babel-loader": "^6.2.1",
     "babel-preset-es2015": "^6.1.18",
@@ -86,8 +86,5 @@
     "url-loader": "^0.5.7",
     "webpack": "^1.13.1",
     "webpack-dev-server": "^1.14.1"
-  },
-  "dependencies": {
-    "karma-sourcemap-loader": "^0.3.7"
   }
 }

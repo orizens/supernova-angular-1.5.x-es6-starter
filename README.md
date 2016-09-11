@@ -6,7 +6,7 @@ An opinionated boilerplate by [Angular ES6/ES2015 Style Guide](https://github.co
 ![](./index-screenshot.png)  
 ## What's Inside 
 - Angular 1.5.x
-- ui-router
+- ui-router 1.x (component support)
 - Karma & Jasmine
 - Webpack - configured with:
   - ES6

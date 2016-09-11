@@ -23,8 +23,15 @@ module.exports = {
   },
   output: {
     path: getPath('./dist'),
-    filename: '[name].[chunkhash].bundle.js',
-    sourceMapFilename: '[name].[chunkhash].bundle.map'
+    filename: '[name].[hash].bundle.js',
+    sourceMapFilename: '[name].[hash].bundle.map'
+  },
+
+  resolve: {
+    modulesDirectories: [
+      'node_modules', 'src/component', 'src/core', 'src/css'
+    ],
+    extensions: [ '', '.js', 'less', 'html' ]
   },
   module: {
     loaders: [{
@@ -58,6 +65,10 @@ module.exports = {
     }, {
       test: /\.(ttf|eot|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
       loader: 'file'
+    },
+    {
+      test: /\.(jpg|png|gif)$/,
+      loader: 'file'
     }]
   },
 
@@ -66,9 +77,12 @@ module.exports = {
       add: true
       // other ng-annotate options here
     }),
-    new webpack.optimize.CommonsChunkPlugin('vendors',
-    'vendors.[hash].js'),
-    new ExtractTextPlugin('[name].[chunkhash].style.css'),
+    new webpack.optimize.CommonsChunkPlugin({ 
+      name: 'vendors', 
+      fileName: 'vendors.[hash:6].js',
+      minChunks: 5
+    }),
+    new ExtractTextPlugin('[name].[hash].style.css'),
     // HtmlWebpackPlugin
     // See: https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({
