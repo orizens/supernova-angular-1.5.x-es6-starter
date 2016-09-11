@@ -73,15 +73,18 @@ module.exports = {
   },
 
   plugins: [
-    new ngAnnotatePlugin({
-      add: true
-      // other ng-annotate options here
-    }),
+    // this is a performance hit by ~10 seconds
+    // new ngAnnotatePlugin({
+    //   add: true
+    //   // other ng-annotate options here
+    // }),
     new webpack.optimize.CommonsChunkPlugin({ 
       name: 'vendors', 
-      fileName: 'vendors.[hash:6].js',
-      minChunks: 5
+      fileName: 'vendors.[hash].js',
+      minChunks: Infinity
     }),
+    new webpack.optimize.AggressiveMergingPlugin({}),
+    new webpack.optimize.OccurenceOrderPlugin(true),
     new ExtractTextPlugin('[name].[hash].style.css'),
     // HtmlWebpackPlugin
     // See: https://github.com/ampedandwired/html-webpack-plugin
