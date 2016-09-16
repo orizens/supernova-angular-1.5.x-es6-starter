@@ -20,7 +20,7 @@ An opinionated boilerplate by [Angular ES6/ES2015 Style Guide](https://github.co
 - font-awesome
 - npm scripts for development, testing (bdd) and production
 - modules scaffold with gulp-dogen
-- FULLSTACK: json-server for mocking backend api during development - available in [fullstack branch](https://github.com/orizens/echoes/tree/fullstack)
+- FULLSTACK: json-server for mocking backend api during development - available in [fullstack branch](https://github.com/orizens/supernova-angular-1.5.x-es6-starter/tree/fullstack)
 
 ## Quick Start
 - nodejs >= 5, npm > 3
