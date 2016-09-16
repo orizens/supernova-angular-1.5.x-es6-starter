@@ -20,6 +20,7 @@ An opinionated boilerplate by [Angular ES6/ES2015 Style Guide](https://github.co
 - font-awesome
 - npm scripts for development, testing (bdd) and production
 - modules scaffold with gulp-dogen
+- FULLSTACK: json-server for mocking backend api during development - available in [fullstack branch](https://github.com/orizens/echoes/tree/fullstack)
 
 ## Quick Start
 - nodejs >= 5, npm > 3
@@ -39,7 +40,9 @@ npm install
 # start dev server
 npm start
 ```
-navigate to http://localhost:9001 in your browser
+navigate to http://localhost:9001 in your browser for the front end  
+navigate to http://localhost:3000 in your browser to view the available routes in the local server api which is served from **[tests/mocks/db.json](tests/mocks/db.json)**.  
+For more info: [json-server documentation](https://github.com/typicode/json-server) 
 
 ## File Structure
 ```
