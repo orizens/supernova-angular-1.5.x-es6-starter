@@ -1,6 +1,6 @@
 {
   "name": "supernova-angular-1.5.x-es6-starter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "starter kit for angular > 1.5.x, > es6, karma and jasmine",
   "main": "src/index.html",
   "directories": {},
