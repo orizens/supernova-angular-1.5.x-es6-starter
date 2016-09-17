@@ -35,7 +35,7 @@ git clone --depth 1 https://github.com/orizens/supernova-angular-1.5.x-es6-start
 cd supernova-angular-1.5.x-es6-starter
 
 # install dependencies with npm
-```npm install```
+npm install
 
 # start dev server
 npm start  
