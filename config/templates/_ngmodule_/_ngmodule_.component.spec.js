@@ -1,22 +1,21 @@
-import =ngmodule=Component from './_ngmodule_.component';
+'use strict';
+import _ngmodule_Module, { =ngmodule=Component } from './index.js';
 
 describe('_ngmodule_ Component', () => {
-  var controller, scope;
+  var ctrl;
 
-  beforeEach(() => {
-    angular.module('_ngmodule_');
-    inject(($controller, $rootScope, $injector) => {
-      // use window.mocks['name.of.mock.json'] for json mocks
-      scope = $rootScope.$new();
-      controller = $controller(=ngmodule=Component.controller, {
-        $scope: scope
-      });
+  beforeEach(window.module(_ngmodule_Module));
+
+  beforeEach(window.inject(($componentController) => {
+    ctrl = $componentController(=ngmodule=Component.selector, {
+      
     });
-
   });
 
   it('should do what it is supposed to do', () => {
-
+    const expected = '';
+    const actual = '';
+    expect(actual).toMatch(expected);
   });
 
 });

@@ -119,12 +119,12 @@ This creates a **dist** directory with a minified and bundled version of the app
 You can run a local server to check the dist build by ```npm run prod:serve```. It is based on lite-server and can be extended through **config/prod-config.json** by the [various options available to it](https://github.com/johnpapa/lite-server).
 
 ## Plans To Add
-- testing for all files - Currently testing only core directory
+- ~~testing for all files - Currently testing only core directory~~
 - protractor / e2e
 - browserstack configuration / remote e2e
 - ngMaterial
-- component router
-- rxjs
+- ~~component router~~ no version for ng1 yet  
+- rxjs (?) - still uses **$scope** to create observables  
 - ngRedux
 
 ## Contributing

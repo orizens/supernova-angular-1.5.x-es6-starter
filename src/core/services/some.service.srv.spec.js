@@ -2,7 +2,7 @@
 import HomeMockJson from '../../../tests/mocks/home.mock';
 import CoreServicesModule from './index.js';
 
-describe('Echoes Services: Youtube Search Service', () => {
+describe('Some Service', () => {
   let httpBackend, someService;
 
   beforeEach(window.module(CoreServicesModule.name));
