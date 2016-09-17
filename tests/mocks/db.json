@@ -9,14 +9,13 @@
   "comments": [
     {
       "id": 1,
-      "body": "some comment",
+      "body": "supernova is awesome",
       "postId": 1
     },
     {
-      "title": "oren farhi",
-      "author": "orenf",
-      "comment": "This is niceeeeeee",
-      "id": 2
+      "id": 2,
+      "body": "all in 1",
+      "postId": 2
     }
   ],
   "profile": {
