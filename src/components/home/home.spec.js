@@ -4,21 +4,18 @@ import HomeModule, { HomeComponent } from './index.js';
 // import HomeMock from '../../../tests/mocks/home.mock.json';
 
 describe('Home Component', () => {
-  let scope, ctrl;
+  let ctrl;
 
   beforeEach(window.module(HomeModule));
 
-  beforeEach(window.inject(($injector, $controller) => {
-    scope = $injector.get('$rootScope').$new();
-    // TODO - should convert to $componentController
-    ctrl = $controller(HomeComponent.controller, {
-      $scope: scope
+  beforeEach(window.inject(($componentController) => {
+    ctrl = $componentController(HomeComponent.selector, { 
+      $state: {}
     });
-    scope.$digest();
   }));
 
   it('should have a title', () => {
-    const expected = 'Welcome Home!';
+    const expected = 'SuperNova';
     const actual = ctrl.title;
     expect(actual).toMatch(expected);
   });
