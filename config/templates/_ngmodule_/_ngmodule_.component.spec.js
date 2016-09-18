@@ -10,7 +10,7 @@ describe('_ngmodule_ Component', () => {
     ctrl = $componentController(=ngmodule=Component.selector, {
       
     });
-  });
+  }));
 
   it('should do what it is supposed to do', () => {
     const expected = '';
