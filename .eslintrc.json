@@ -1,13 +1,19 @@
 {
   "parserOptions": {
     "sourceType": "module",
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "ecmaFeatures": {
       "modules": true,
       "arrowFunctions": true,
       "blockBindings": true,
       "destructuring": true,
-      "classes": true
+      "classes": true,
+      "spread": true,
+      "restParams": true,
+      "templateStrings": true,
+      "experimentalObjectRestSpread": true,
+      "objectLiteralShorthandMethods": true,
+      "objectLiteralShorthandProperties": true,
     }
   },
   "rules": {
